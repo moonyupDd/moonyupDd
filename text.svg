@@ -1,18 +1,118 @@
 <svg fill="none" width="1200" height="750" xmlns="http://www.w3.org/2000/svg">
     <style>
-        div {
-        color: white;
-        font: 18px serif;
-        height: 100%;
-        overflow: auto;
-        }
+			#myContent {
+				position: relative;
+				width: 100%;
+				height: 200px;
+				background-color: #252525;
+			}
+			.describ {
+				font-size: 2.5rem;
+				position: absolute;
+				top: 0%;
+				left: 0%;
+				border-right: none;
+				white-space: nowrap;
+				overflow: hidden;
+				text-align: center;
+				box-shadow: 0 0 0rem #fff, 10px 0 5px -8px #bc13fe;
+				animation: typewriter 10s steps(18) both infinite, blkCursor 0.5s steps(15) infinite;
+				color: #fff;
+				font-weight: 800;
+				margin: 0%;
+			}
+
+			.describ1 {
+				margin: 0%;
+				font-size: 2.5rem;
+				position: absolute;
+				top: 0%;
+				left: 0%;
+				border-right: 4px solid transparent;
+				box-shadow: 0 0 0rem #fff, 10px 0 5px -8px #bc13fe;
+				color: #fff;
+				font-weight: 800;
+				white-space: nowrap;
+				overflow: hidden;
+				animation: namewriter 10s steps(18) both infinite, nameblkCursor 0.5s steps(15) infinite;
+			}
+
+			@keyframes typewriter {
+				0% {
+					width: 0;
+					visibility: hidden;
+				}
+				15% {
+					width: 164px;
+					visibility: visible;
+				}
+				20% {
+					width: 220px;
+					visibility: visible;
+				}
+				25% {
+					visibility: hidden;
+					width: 0;
+				}
+				38% {
+					visibility: hidden;
+					width: 0;
+				}
+				100% {
+					visibility: hidden;
+					width: 0;
+				}
+			}
+
+			@keyframes namewriter {
+				0% {
+					width: 0;
+					visibility: hidden;
+					box-shadow: none;
+				}
+
+				20% {
+					width: 0;
+					visibility: visible;
+				}
+				50% {
+					width: 135px;
+					visibility: visible;
+					box-shadow: 0 0 0rem #fff, 10px 0 5px -8px #bc13fe;
+				}
+				80% {
+					width: 270px;
+					visibility: visible;
+				}
+				100% {
+					visibility: hidden;
+					width: 0;
+				}
+			}
+
+			@keyframes blkCursor {
+				0% {
+					box-shadow: 0 0 0rem #fff, 5px 0 5px -8px #bc13fe;
+				}
+				100% {
+					box-shadow: 0 0 0rem #fff, 10px 0 5px -8px #bc13fe;
+				}
+			}
+
+			@keyframes nameblkCursor {
+				0% {
+					box-shadow: 0 0 0rem #fff, 5px 0 5px -8px #bc13fe;
+				}
+				100% {
+					box-shadow: 0 0 0rem #fff, 10px 0 5px -8px #bc13fe;
+				}
+			}
     </style>
     <polygon points="5,5 195,10 185,185 10,195" />
     <foreignObject x="20" y="20" width="160" height="160">
-    <div xmlns="http://www.w3.org/1999/xhtml">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mollis mollis
-            mi ut ultricies. Nullam magna ipsum, porta vel dui convallis, rutrum
-            imperdiet eros. Aliquam erat volutpat.
-    </div>
+		<div id="myContent">
+			<p class="describ">Hello World!</p>
+			<p class="describ1">I am Pham Duy</p>
+		</div>
     </foreignObject>
 </svg>
