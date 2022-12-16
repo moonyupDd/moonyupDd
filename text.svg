@@ -1,7 +1,8 @@
 <svg viewBox="0 0 1200 750" width="1200" height="750" xmlns="http://www.w3.org/2000/svg">
     <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml">
         <style>
-			#myContent {
+    		#myContent {
 				position: relative;
 				width: 100%;
 				height: 200px;
@@ -113,5 +114,6 @@
 			<p class="describ">Hello World!</p>
 			<p class="describ1">I am Pham Duy</p>
 		</div>
+    </div>
     </foreignObject>
 </svg>
