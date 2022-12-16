@@ -1,5 +1,5 @@
-<svg width="1200" height="750" xmlns="http://www.w3.org/2000/svg">
-    <!-- <foreignObject x="20" y="20" width="160" height="160"> -->
+<svg viewBox="0 0 1200 750" width="1200" height="750" xmlns="http://www.w3.org/2000/svg">
+    <foreignObject width="100%" height="100%">
         <style>
 			#myContent {
 				position: relative;
@@ -113,5 +113,5 @@
 			<p class="describ">Hello World!</p>
 			<p class="describ1">I am Pham Duy</p>
 		</div>
-    <!-- </foreignObject> -->
+    </foreignObject>
 </svg>
