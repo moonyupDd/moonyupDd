@@ -1,4 +1,4 @@
-<img src="text.svg" width="1200">
+<img src="text.svg" width="1200"/>
 
 ## 🌐Socials
 
